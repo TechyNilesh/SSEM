@@ -67,13 +67,27 @@ You can use this score to assess the quality of the generated text compared to t
 
 SSEM is released under the MIT License.
 
-
 ## References
 
 1. [Evaluation Measures for Text Summarization](https://www.researchgate.net/publication/220106310_Evaluation_Measures_for_Text_Summarization)
 2. [BERTScore: Evaluating Text Generation with BERT](https://arxiv.org/abs/1904.09675)
 3. [Semantic Similarity Based Evaluation for Abstractive News Summarization](https://aclanthology.org/2021.gem-1.3/)
 4. [Evaluation of Semantic Answer Similarity Metrics](https://arxiv.org/abs/2206.12664)
+
+## Citation
+
+If you use `SSEM` in your research, please cite the following GitHub Repository:
+
+```latex
+@misc{ssem,
+  author = {Nilesh Verma},
+  title = {SSEM (Semantic Similarity Based Evaluation Metrics)},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/yourusername/ssmlibrary}}
+}
+```
 
 ### Please do STAR the repository, if it helped you in anyway.
 
