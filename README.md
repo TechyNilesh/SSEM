@@ -79,7 +79,7 @@ SSEM is released under the MIT License.
 If you use `SSEM` in your research, please cite the following GitHub Repository:
 
 ```latex
-@misc{ssem,
+@misc{TechyNilesh/SSEM,
   author = {Nilesh Verma},
   title = {SSEM (Semantic Similarity Based Evaluation Metrics)},
   year = {2023},
