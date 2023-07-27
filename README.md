@@ -32,7 +32,7 @@ pip install ssem
 To use SSEM, you first need to import the library and create an instance of the `SemanticSimilarity` class. You can specify the pre-trained model you want to use, the distance metric, and any custom embeddings.
 
 ```python
-from ssem import SemanticSimilarity
+from SSEM import SemanticSimilarity
 
 ssem = SemanticSimilarity(model_name='bert-base-multilingual-cased', metric='cosine',custom_embeddings=None)
 ```
