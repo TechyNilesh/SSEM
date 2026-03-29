@@ -381,8 +381,6 @@ If you use `SSEM` in your research, please cite:
 
 ---
 
----
-
 ## License
 
 SSEM is released under the MIT License.
