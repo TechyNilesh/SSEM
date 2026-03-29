@@ -381,10 +381,6 @@ If you use `SSEM` in your research, please cite:
 
 ---
 
-### Please do STAR the repository, if it helped you in anyway.
-
-More cool features will be added in future. Feel free to give suggestions, report bugs and contribute.
-
 ---
 
 ## License
