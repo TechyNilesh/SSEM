@@ -54,8 +54,6 @@ print(result.explain())  # Full transparency report
 | **Every score is transparent** — method, model, citations | Black-box scores |
 | **Runs offline on CPU** — no API keys needed | Many require cloud API keys |
 
----
-
 ## Available Metrics
 
 ### Text Generation Quality
@@ -94,8 +92,6 @@ print(result.explain())  # Full transparency report
 | Metric | Method | Score Range | Citation |
 |--------|--------|-------------|----------|
 | `code_correctness` | Execution-based Pass@k with unbiased estimator | [0, 1] | Chen et al. (2021) |
-
----
 
 ## Scoring Transparency
 
@@ -137,8 +133,6 @@ How This Score Was Computed:
 Research Citations:
   [1] Zhang, T., Kishore, V., Wu, F., Weinberger, K. Q., & Artzi, Y. (2020). BERTScore: Evaluating Text Generation with BERT. ICLR 2020. https://arxiv.org/abs/1904.09675
 ```
-
----
 
 ## Usage Examples
 
@@ -262,8 +256,6 @@ print(report.explain())   # Full transparency + bibliography
 print(report.to_json())   # JSON export for pipelines
 ```
 
----
-
 ## Research Citations
 
 SSEM is grounded in peer-reviewed research. Every metric cites its origin:
@@ -289,8 +281,6 @@ Access all citations programmatically:
 evaluator.list_citations()  # Returns dict of all citations
 ```
 
----
-
 ## Architecture
 
 ```
@@ -309,9 +299,6 @@ SSEM/
 └── SSEM.py            # Legacy v1 (backward compatible)
 ```
 
----
-
-
 ## Parameters
 
 ### SSEM Constructor
@@ -327,8 +314,6 @@ All methods accept the specific inputs for their metric and return a `MetricResu
 
 See `evaluator.list_metrics()` for all available metrics.
 
----
-
 ## Backward Compatibility
 
 The original v1 API still works:
@@ -339,12 +324,6 @@ from SSEM import SemanticSimilarity
 ssem = SemanticSimilarity(model_name='bert-base-multilingual-cased', metric='cosine')
 score = ssem.evaluate(output_sentences, reference_sentences, level='sentence', output_format='mean')
 ```
-
----
-
-## License
-
-SSEM is released under the MIT License.
 
 ## Citation
 
@@ -361,8 +340,6 @@ If you use `SSEM` in your research, please cite:
 }
 ```
 
----
-
 ## Core Contributors
 
 <table>
@@ -378,8 +355,6 @@ If you use `SSEM` in your research, please cite:
     </td>
   </tr>
 </table>
-
----
 
 ## License
 
