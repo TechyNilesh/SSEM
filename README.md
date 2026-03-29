@@ -4,12 +4,14 @@
   <img src="https://raw.githubusercontent.com/TechyNilesh/SSEM/main/assets/ssem-logo.png" alt="SSEM Logo" width="300">
 </p>
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
-![PyPI](https://img.shields.io/pypi/v/ssem.svg)
-[![Downloads](https://static.pepy.tech/personalized-badge/ssem?period=total&units=none&left_color=grey&right_color=green&left_text=Downloads)](https://pepy.tech/project/ssem)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg" alt="Python">
+  <img src="https://img.shields.io/pypi/v/ssem.svg" alt="PyPI">
+  <a href="https://pepy.tech/project/ssem"><img src="https://static.pepy.tech/personalized-badge/ssem?period=total&units=none&left_color=grey&right_color=green&left_text=Downloads" alt="Downloads"></a>
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+</p>
 
-**Lightweight evaluation metrics for LLMs and AI agents. No platform. No API keys. Just scores.**
+<p align="center"><b>Lightweight evaluation metrics for LLMs and AI agents. No platform. No API keys. Just scores.</b></p>
 
 SSEM provides 12 evaluation metrics covering text generation quality, factual consistency, hallucination detection, agentic AI evaluation, and safety — all with full scoring transparency and research citations.
 
@@ -382,3 +384,9 @@ If you use `SSEM` in your research, please cite:
 ### Please do STAR the repository, if it helped you in anyway.
 
 More cool features will be added in future. Feel free to give suggestions, report bugs and contribute.
+
+---
+
+## License
+
+SSEM is released under the MIT License.
