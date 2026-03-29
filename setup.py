@@ -14,7 +14,7 @@ setup(
   packages = ['SSEM'],
   version = '1.0',
   license='MIT',        
-  description = 'SSEM is a semantic similarity-based evaluation library for natural language processing (NLP) text generation tasks. It supports various similarity metrics and evaluation levels, and is compatible with any Hugging Face pre-trained transformer model.',
+  description = 'SSEM (Standardized Scoring and Evaluation Metrics) — Lightweight evaluation metrics for LLMs and AI agents. No platform. No API keys. Just scores.',
   long_description=README,
   author = 'Nilesh Verma',                   
   author_email = 'me@nileshverma.com',     

@@ -1,0 +1,73 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ssem"
+version = "2.0.0"
+description = "Lightweight evaluation metrics for LLMs and AI agents. No platform. No API keys. Just scores."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    { name = "Nilesh Verma", email = "me@nileshverma.com" },
+]
+keywords = [
+    "evaluation",
+    "metrics",
+    "LLM",
+    "NLP",
+    "semantic-similarity",
+    "BERTScore",
+    "faithfulness",
+    "hallucination",
+    "AI-agents",
+    "agentic-evaluation",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "torch>=2.0.0",
+    "transformers>=4.30.0",
+    "scikit-learn>=1.3.0",
+    "scipy>=1.11.0",
+    "tqdm>=4.65.0",
+]
+
+[project.optional-dependencies]
+lsi = ["gensim>=4.3.0"]
+all = [
+    "gensim>=4.3.0",
+]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "ruff>=0.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/TechyNilesh/SSEM"
+Repository = "https://github.com/TechyNilesh/SSEM"
+Issues = "https://github.com/TechyNilesh/SSEM/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["SSEM"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
