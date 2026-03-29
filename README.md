@@ -325,21 +325,6 @@ ssem = SemanticSimilarity(model_name='bert-base-multilingual-cased', metric='cos
 score = ssem.evaluate(output_sentences, reference_sentences, level='sentence', output_format='mean')
 ```
 
-## Citation
-
-If you use `SSEM` in your research, please cite:
-
-```bibtex
-@misc{SSEM,
-  author = {Nilesh Verma},
-  title = {SSEM: Standardized Scoring and Evaluation Metrics},
-  year = {2023},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/TechyNilesh/SSEM}}
-}
-```
-
 ## Core Contributors
 
 <table>
@@ -355,6 +340,21 @@ If you use `SSEM` in your research, please cite:
     </td>
   </tr>
 </table>
+
+## Citation
+
+If you use `SSEM` in your research, please cite:
+
+```bibtex
+@misc{SSEM,
+  author = {Nilesh Verma},
+  title = {SSEM: Standardized Scoring and Evaluation Metrics},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/TechyNilesh/SSEM}}
+}
+```
 
 ## License
 
